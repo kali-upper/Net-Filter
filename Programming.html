@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Filter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>فيديوهات برمجة</h1>
+        <a href="index.html">العودة إلى الصفحة الرئيسية</a>
+        <button id="theme-toggle">
+            <span id="theme-icon">🌙</span>
+        </button>
+        <button id="back-to-top">↑ Top</button>
+
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="ابحث عن فيديو..." class="search-input">
+                    <button id="search-button" class="search-button">بحث</button>
+                    </div>
+    </header>
+
+    <div class="container" id="programming-container"></div>
+
+    <script src="script.js"></script>
+    <script>
+        addYouTubeVideo("8mAITcNt710", "Harvard CS50 – Full Computer Science University Course", "programming-container");
+        addYouTubeVideo("XKHEtdqhLK8", "Python Full Course for free 🐍", "programming-container");
+        addYouTubeVideo("dqlO6_5rZSQ", "I tried 50 Programming Courses. Here are Top 5.", "programming-container");
+    </script>
+
+    <div class="comment-box">
+        <h3>سيتم إضافة المزيد من الفيديوهات قريباً</h3>
+        <p><a href="https://wa.me/+201207688761" class="whatsapp-link" target="_blank" rel="noopener">واتساب</a>يمكنك إقتراح فيديوهات عن طريق</p>
+    </div>
+
+</body>
+</html>

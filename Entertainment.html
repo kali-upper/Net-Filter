@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment Filter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>فيديوهات ترفيهية</h1>
+        <a href="index.html">العودة إلى الصفحة الرئيسية</a>
+        <button id="theme-toggle">
+            <span id="theme-icon">🌙</span>
+        </button>
+        <button id="back-to-top">↑ Top</button>
+
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="ابحث عن فيديو..." class="search-input">
+                    <button id="search-button" class="search-button">بحث</button>
+                    </div>
+    </header>
+
+    <div class="container" id="entertainment-container"></div>
+    
+    <script src="script.js"></script>
+    <script>
+        addYouTubeVideo("_tfT4AGZLFw", "أقوى الردود المفحمة في المواقف المحرجة تعلم ذكاء الرد في المواقف الصعبة وأجمل طرائف العرب ونوادرهم", "entertainment-container");
+        addYouTubeVideo("rK5E9w4z4nQ", "ليه الطيارة متقفش في الجو وتستنى الارض تلف تحتها", "entertainment-container");
+        </script>
+        <div class="comment-box">
+            <h3>سيتم إضافة المزيد من الفيديوهات قريباً</h3>
+            <p><a href="https://wa.me/+201207688761" class="whatsapp-link" target="_blank" rel="noopener">واتساب</a>يمكنك إقتراح فيديوهات عن طريق</p>
+        </div>
+</body>
+</html>
