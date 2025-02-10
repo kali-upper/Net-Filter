@@ -1,7 +1,6 @@
 function addYouTubeVideo(videoId, title, containerId) {
     const videoEmbedUrl = `https://www.youtube.com/embed/${videoId}?controls=1`;
     const videoUrl = `https://www.youtube.com/watch?v=${videoId}`;
-    
     const videoCard = `
         <div class="video-card">
             <iframe width="100%" height="315" src="${videoEmbedUrl}" frameborder="0" allowfullscreen allow="autoplay; encrypted-media"></iframe>
