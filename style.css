@@ -318,24 +318,18 @@ body.dark-mode .comment-box p {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
 }
-
-/* لون النص في الوضع الفاتح */
 body.light-mode .whatsapp-link {
     color: black;
 }
-
-/* لون النص في الوضع الداكن */
 body.dark-mode .whatsapp-link {
     color: white;
 }
-
 .whatsapp-link:hover {
     color: #ffffff; 
     background-color: #25D366;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     transform: translateY(-3px);
 }
-
 .whatsapp-link:active {
     transform: translateY(0);
 }
