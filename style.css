@@ -62,7 +62,6 @@ header a:hover {
     transition: background-color 0.3s ease, transform 0.3s ease;
     background: linear-gradient(to right, #ff0404, #000000);
 }
-
 #theme-toggle:hover {
     background-color: #000000;
     transform: scale(1.1);
@@ -279,7 +278,6 @@ nav ul li a:hover {
 .search-button:hover {
     background-color: #45a049;
     background: linear-gradient(135deg, #000000, rgb(95, 11, 11));
-
 }
 .video-link, .theater-mode-btn {
     flex-grow: 1;
