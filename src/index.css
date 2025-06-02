@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* General styling for buttons within header-controls for consistency */
+.header-controls .home-button-header,
+.header-controls #theme-toggle,
+.header-controls #back-to-top {
+  background-color: transparent;
+  border: none;
+  color: inherit; /* Or your desired icon/text color */
+  cursor: pointer;
+  padding: 10px; /* INCREASED PADDING from 8px to 10px */
+  margin-left: 12px; /* INCREASED from 8px to 12px */
+  border-radius: 50%; /* Make them circular for a modern look */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.header-controls .home-button-header:first-child,
+.header-controls #theme-toggle:first-child {
+  margin-left: 0; /* No left margin for the first button in the group */
+}
+
+/* Hover effect for all header control buttons */
+.header-controls .home-button-header:hover,
+.header-controls #theme-toggle:hover,
+.header-controls #back-to-top:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Subtle background on hover */
+}
+
+/* Specific adjustment if needed for icon alignment or size, though size={20} is often good */
+.header-controls #theme-toggle svg,
+.header-controls #back-to-top svg {
+  display: block; /* Helps prevent extra space around SVG */
+}
+
+/* Styling for the home link to make it look like other icon buttons if it's just text */
+.home-button-header {
+  text-decoration: none;
+  font-size: 1em; /* Adjust as needed */
+  /* If it's just text and you want it to fit in a circle like icon buttons: */
+  /* width: 36px; /* Approx 20px icon + 2*8px padding */
+  /* height: 36px; */
+  /* line-height: 1; /* For vertical centering of text if it's a single line */
+}
+
+/* Dark theme specific hover effect if your theme toggle adds a class to body/html */
+.dark-theme .header-controls .home-button-header:hover,
+.dark-theme .header-controls #theme-toggle:hover,
+.dark-theme .header-controls #back-to-top:hover {
+  background-color: rgba(255, 255, 255, 0.15); /* Lighter hover for dark mode */
+}
+
+/* Add margin to the left of the Theater Mode button in VideoCard */
+.video-content .theater-mode-btn {
+  margin-left: 10px; /* Adjust this value as needed */
+}
