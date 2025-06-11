@@ -14,6 +14,10 @@ const EntertainmentPage: React.FC = () => {
       title: "من طرائف العرب ونوادرهم",
     },
     {
+      id: "JLmUqmWDalc",
+      title: "كل الأوهام البصرية في 11 دقيقة",
+    },
+    {
       id: "rK5E9w4z4nQ",
       title: "ليه الطيارة متقفش في الجو وتستنى الارض تلف تحتها",
     },
